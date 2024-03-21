@@ -1,4 +1,4 @@
-Scriptname _smAddPerkQuest extends Quest  
+Scriptname _m3MaintainAddPerkQuest extends Quest  
 
 Perk Property ThePerk Auto
 SPELL Property TheToggleSpell  Auto  

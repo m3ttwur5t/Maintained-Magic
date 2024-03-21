@@ -1,4 +1,4 @@
-Scriptname _smMaintainedMagicMenuClearEffect extends ActiveMagicEffect  
+Scriptname _m3MaintainMenuClearEffect extends ActiveMagicEffect  
 
 Keyword Property InfiniteKeyword Auto
 Spell Property ThisSpell  Auto  
