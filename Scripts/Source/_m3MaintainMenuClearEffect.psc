@@ -7,7 +7,7 @@ Event OnEffectStart(Actor akTarget, Actor akCaster)
 		int spellCount = akTarget.GetSpellCount() - 1
 		while spellCount >= 0
 			Spell checkedSpell = akTarget.GetNthSpell(spellCount)
-			if checkedSpell.HasKeyword(InfiniteKeyword)
+			if checkedSpell && checkedSpell.HasKeyword(InfiniteKeyword)
 				akTarget.RemoveSpell(checkedSpell)
 			endif
 			spellCount -= 1
